@@ -69,7 +69,7 @@ void INPUT::execute(EvalState &state)
     {
         try
         {
-            value=stringToInteger(getLine("?"));
+            value=stringToInteger(getLine(" ? "));
         } catch (...)
         {
             cout<<"INVALID NUMBER"<<endl;
