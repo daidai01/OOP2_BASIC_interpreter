@@ -36,7 +36,7 @@ int main() {
       try {
          processLine(getLine(), program, state);
       } catch (ErrorException & ex) {
-         cout << "Error: " << ex.getMessage() << endl;
+         cout << ex.getMessage() << endl;
       }
    }
    return 0;
