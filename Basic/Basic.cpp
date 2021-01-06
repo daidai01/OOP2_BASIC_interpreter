@@ -123,7 +123,7 @@ void processLine(string line, Program & program, EvalState & state) {
        {
            try
            {
-               svalue=getLine("?");
+               svalue=getLine(" ? ");
                value=stringToInteger(svalue);
            }
            catch(...)
