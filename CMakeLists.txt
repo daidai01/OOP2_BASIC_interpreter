@@ -13,5 +13,4 @@ add_executable(code Basic/Basic.cpp
         StanfordCPPLib/simpio.cpp
         StanfordCPPLib/strlib.cpp
         StanfordCPPLib/error.cpp
-        #[[Test/score.cc]]
         )
